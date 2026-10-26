@@ -1,0 +1,10 @@
+﻿PS D:\计算智能二\computer_intelligence\实验01_产生式规则推理与动物识别> .\.venv\Scripts\python.exe --version
+Python 3.12.13
+
+PS D:\计算智能二\computer_intelligence\实验01_产生式规则推理与动物识别> .\.venv\Scripts\python.exe student_identity.py --set 2410311411 --stage environment-check
+STUDENT_ID=2410311411
+EXPERIMENT_ID=01
+STAGE=environment-check
+IDENTITY_CODE=47907FA1B1FF
+REGISTERED_AT=2026-10-26T16:11:45+08:00
+CAPTURED_AT=2026-10-26T16:11:45+08:00

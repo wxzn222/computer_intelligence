@@ -1,0 +1,50 @@
+{
+  "initial_facts": [
+    "dark_spots",
+    "eats_meat",
+    "has_hair",
+    "tawny"
+  ],
+  "all_facts": [
+    "carnivore",
+    "dark_spots",
+    "eats_meat",
+    "has_hair",
+    "leopard",
+    "mammal",
+    "tawny"
+  ],
+  "fired_rules": [
+    {
+      "round": 1,
+      "rule_id": "R01",
+      "premises": [
+        "has_hair"
+      ],
+      "conclusion": "mammal"
+    },
+    {
+      "round": 1,
+      "rule_id": "R05",
+      "premises": [
+        "eats_meat",
+        "mammal"
+      ],
+      "conclusion": "carnivore"
+    },
+    {
+      "round": 1,
+      "rule_id": "R09",
+      "premises": [
+        "carnivore",
+        "dark_spots",
+        "mammal",
+        "tawny"
+      ],
+      "conclusion": "leopard"
+    }
+  ],
+  "animals": [
+    "leopard"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿PS D:\计算智能二\computer_intelligence\实验01_产生式规则推理与动物识别> .\.venv\Scripts\python.exe run_experiment.py --facts "has_feathers,cannot_fly,swims,black_white"
+初始事实： 黑白二色、不会飞、有羽毛、会游泳
+推理轨迹：
+  第1轮 R03: 有羽毛 -> 鸟类
+  第1轮 R14: 鸟类 且 黑白二色 且 不会飞 且 会游泳 -> 企鹅
+识别结果：企鹅
+结果文件：D:\计算智能二\computer_intelligence\实验01_产生式规则推理与动物识别\outputs\inference_result.json
+STUDENT_ID=2410311411
+EXPERIMENT_ID=01
+STAGE=final-inference
+IDENTITY_CODE=47907FA1B1FF
+REGISTERED_AT=2026-10-26T16:11:45+08:00
+CAPTURED_AT=2026-10-26T16:11:48+08:00

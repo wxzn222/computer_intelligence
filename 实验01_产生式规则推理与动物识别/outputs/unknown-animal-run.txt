@@ -1,0 +1,11 @@
+﻿PS D:\计算智能二\computer_intelligence\实验01_产生式规则推理与动物识别> .\.venv\Scripts\python.exe run_experiment.py --facts "long_legs"
+初始事实： 长腿
+推理轨迹：
+识别结果：无法确定
+结果文件：D:\计算智能二\computer_intelligence\实验01_产生式规则推理与动物识别\outputs\inference_result.json
+STUDENT_ID=2410311411
+EXPERIMENT_ID=01
+STAGE=final-inference
+IDENTITY_CODE=47907FA1B1FF
+REGISTERED_AT=2026-10-26T16:11:45+08:00
+CAPTURED_AT=2026-10-26T16:11:50+08:00

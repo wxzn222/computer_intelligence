@@ -1,0 +1,12 @@
+﻿PS D:\计算智能二\computer_intelligence\实验01_产生式规则推理与动物识别> .\.venv\Scripts\python.exe -c "from run_experiment import parse_facts; parse_facts('has_hair,unknown_fact')"
+python.exe : Traceback (most recent call last):
+At line:21 char:14
++ ... invalidOut=(& .\.venv\Scripts\python.exe -c "from run_experiment impo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<string>", line 1, in <module>
+  File "D:\计算智能二\computer_intelligence\实验01_产生式规则推理与动物识别\run_experiment.py", line 21, in parse_facts
+    raise ValueError(f"未知事实：{', '.join(unknown)}")
+ValueError: 未知事实：unknown_fact

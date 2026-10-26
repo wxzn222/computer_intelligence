@@ -1,0 +1,19 @@
+﻿PS D:\计算智能二\computer_intelligence\实验01_产生式规则推理与动物识别> .\.venv\Scripts\python.exe -m unittest -v test_inference.py
+python.exe : test_extension_rule_does_not_change_basic_rules (test_inference.ForwardChainTests.test_extension_rule_does
+_not_change_basic_rules) ... ok
+At line:9 char:12
++ $testsOut=(& .\.venv\Scripts\python.exe -m unittest -v test_inference ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_extension_...c_rules) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_leopard_requires_multi_step_reasoning (test_inference.ForwardChainTests.test_leopard_requires_multi_step_reasoning
+) ... ok
+test_penguin (test_inference.ForwardChainTests.test_penguin) ... ok
+test_same_rule_fires_only_once (test_inference.ForwardChainTests.test_same_rule_fires_only_once) ... ok
+test_unknown_description_has_no_animal (test_inference.ForwardChainTests.test_unknown_description_has_no_animal) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
